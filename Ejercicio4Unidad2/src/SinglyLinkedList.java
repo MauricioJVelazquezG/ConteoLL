@@ -61,7 +61,7 @@ public class SinglyLinkedList {
     public int conteo (int x){
         int contador = 0;
         Nodo temp = head;
-        while (head != null){
+        while (temp != null){
             if (temp.data == x){
                 contador++;
             }
@@ -74,3 +74,4 @@ public class SinglyLinkedList {
 
     
 }
+
