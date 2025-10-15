@@ -12,9 +12,10 @@ public class App {
         list.add(3);
         list.printList();
         System.out.println("--------------------");
-        list.conteo(1);
-        list.conteo(2);
-        list.conteo(3);
+        System.out.println("El conteo de 1 es: "+list.conteo(1));
+        System.out.println("El conteo de 2 es: "+list.conteo(2));
+        System.out.println("El conteo de 3 es: "+list.conteo(3));
         System.out.println("--------------------");
     }
 }
+
